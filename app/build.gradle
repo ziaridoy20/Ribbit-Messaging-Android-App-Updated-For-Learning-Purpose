@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "20.0.0"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.teamtreehouse.ribbit"
-        minSdkVersion 14
-        targetSdkVersion 19
+        minSdkVersion 19
+        targetSdkVersion 25
     }
 
     buildTypes {
@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:support-v4:19.0.0'
     compile files('libs/commons-io-2.4.jar')
     compile files('libs/Parse-1.5.1.jar')
     compile files('libs/picasso-2.3.3.jar')
